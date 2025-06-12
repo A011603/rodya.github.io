@@ -1,0 +1,21 @@
+title: "Rodya Hates Math"
+name: "Rodya"
+description: "The world is full of numbers and wonder!"
+baseurl: ""
+url: "https://rodya.github.io"
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-seo-tag
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+locale: "en-US"
